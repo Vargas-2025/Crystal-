@@ -1,0 +1,111 @@
+body {
+    background-color: rgb(180, 143, 149);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+/* elements  */
+h1 {
+    color: rgb(102, 51, 51);
+    text-align: center;
+}
+h2 {
+    color: rgb(151, 91, 91);
+    text-align: center;
+}
+li {
+    font-style: italic;
+    font-weight: bold;
+    color: rgb(24, 22, 22);
+    font-size: 20px;
+}
+.navigation {
+    background-color: rgb(102, 51, 51);
+    padding: 10px;
+    text-align: left;
+    
+}
+.navigation ol {
+    display: flex;
+    list-style-type: none;
+    justify-content: flex-start;
+}   
+.navigation a {
+    margin-right: 20px;
+    color : white;
+    font-size: 24px;
+    box-shadow: 2px 1px 5px rgb(236, 232, 232);
+}   
+.navigation a:hover {
+    color: rgb(180, 143, 149);
+    background-color: rgb(102, 51, 51);
+}
+.navagation a:active {
+    color: rgb(151, 91, 91);
+    border-radius: 50%;
+}   
+
+/* images */
+
+#favoritethings {
+    display:flex;
+   justify-content: space-around;
+   flex-wrap: wrap;
+}   
+#favoritethings li {
+    text-align: center;
+    list-style-type: none;
+    
+}
+/* tables */
+
+table{
+    background-color: rgb(236, 232, 232);
+    boarder: 3px solid rgb(102, 51, 51);
+
+}
+thead {
+    background-color: rgb(180, 143, 149);
+    color: white;
+    font-size: 24px;
+}
+th, td {
+    padding: 10px;
+    boarder: 2px solid rgb(102, 51, 51);
+    text-align: center;
+    letter-spacing: 1px;
+}
+
+/*form*/
+form {
+    background-color: rgb(236, 232, 232);
+    padding: 20px;
+    boarder: 3px solid rgb(32, 32, 32);
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    gap: 10 px;
+    max-width: 50%;
+}
+label {
+    font-weight: bold;
+    color: rgb(24, 22, 22);
+    align-self: left;
+    font-size: large;
+}
+form input
+{
+    padding: 5px;
+    font-size: 16px;
+    boarder: 2px solid rgb(102, 51, 51);
+    margin-top: 10px;
+    margin-bottom: 20px;
+
+}
+form button {
+    width: 100px;
+    padding: 10px;
+    background-color: rgb(102, 51, 51);
+    color: white;
+    font-size: 16px;
+    boarder: none;
+    cursor: pointer;
+}
